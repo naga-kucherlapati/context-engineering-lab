@@ -51,3 +51,4 @@ Some content may feel simple on purpose. Clarity matters more than complexity.
 As AI systems move into everyday workflows, reliability, trust, and usability become more important than cleverness.
 
 Understanding context is a key part of building AI systems that people can actually rely on.
+Last updated: learning and iterating.
