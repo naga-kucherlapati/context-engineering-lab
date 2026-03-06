@@ -1,54 +1,37 @@
 # Context Engineering Lab
 
-This repository explores a simple idea with big implications: AI outputs are shaped more by context than by clever prompts.
+This repository explores how context shapes the behavior of AI systems.
 
-The goal here is not to chase novelty. It is to understand how context, constraints, and information boundaries influence how AI systems reason, respond, and behave in real settings.
+Much of the conversation around AI focuses on prompts. In practice, the reliability of AI systems depends far more on context: the information environment, the constraints applied to the system, and the structure around the task.
 
-This lab is intentionally practical and narrative-driven.
-
----
-
-## What this lab focuses on
-
-You will find explorations around:
-- Why the same prompt produces different results in different contexts
-- How missing, outdated, or noisy context leads to unreliable outputs
-- The difference between prompt design and system-level context design
-- How retrieval, memory, and instructions work together
-- Where human review and judgment still matter
-
-The emphasis is on understanding behavior, not optimizing syntax.
+This lab documents ideas and examples that illustrate how context engineering works in practice.
 
 ---
 
-## What “context” means here
+## What is inside this repository
 
-Context includes, but is not limited to:
-- The information the model is allowed to see
-- The structure and ordering of that information
-- Constraints, instructions, and boundaries
-- The task, audience, and environment in which the system operates
+Concepts  
+Core ideas behind context engineering and system design.
 
-In other words, context is the system around the prompt.
-
----
-
-## What you will see over time
-
-This repository will evolve to include:
-- Small experiments and comparisons
-- Lightweight notebooks and examples
-- Before and after scenarios
-- Reflections on failure modes and edge cases
-- Plain-language explanations that connect technical behavior to real use
-
-Some content may feel simple on purpose. Clarity matters more than complexity.
+Examples  
+Simple demonstrations that show how context changes AI behavior.
 
 ---
 
 ## Why this matters
 
-As AI systems move into everyday workflows, reliability, trust, and usability become more important than cleverness.
+Many AI failures are not caused by weak models or poorly written prompts.
 
-Understanding context is a key part of building AI systems that people can actually rely on.
-Last updated: learning and iterating.
+They are caused by missing context, unclear constraints, or poorly structured information.
+
+Understanding context engineering helps teams build AI systems that are more reliable, interpretable, and aligned with real-world use.
+
+---
+
+## Repository structure
+
+concepts/  
+Foundational explanations and thinking around context design.
+
+examples/  
+Practical demonstrations showing how context affects outputs.
